@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+<meta http-equiv="Content-Type" content="application/xhtml+xml">
+<base href="http://vietbamedia.com.vn/">
+<title>Dịch Vụ</title>
+<meta name="keywords" content="Dịch Vụ" />
+<meta name="description" content="Dịch Vụ" />
+<meta property="og:image" content="http://vietbamedia.com.vn/site/upload/generals/vietsmart_logo.jpg" />
+
+<!-- Google/fonts CSS -->
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="http://vietbamedia.com.vn/site/themes/webroot/css/bootstrap.min.css">
+<link rel="stylesheet" href="http://vietbamedia.com.vn/site/themes/webroot/css/flexslider.css">
+<link rel="stylesheet" href="http://vietbamedia.com.vn/site/themes/webroot/css/style.css">
+<link rel="stylesheet" href="http://vietbamedia.com.vn/site/themes/webroot/css/font-awesome.min.css">
+<link rel="stylesheet" href="http://vietbamedia.com.vn/site/themes/webroot/css/animate.css">
+<link rel="stylesheet" href="http://vietbamedia.com.vn/site/themes/webroot/css/owl.carousel.css">
+
+<link rel="shortcut icon" href="http://vietbamedia.com.vn/site/upload/generals/favicon.ico" type="image/x-icon">
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body class="wraper">
+	<div id="fb-root"></div>
+	<script>(function (d, s, id) {
+	        var js, fjs = d.getElementsByTagName(s)[0];
+	        if (d.getElementById(id)) return;
+	        js = d.createElement(s);
+	        js.id = id;
+	        js.src = "//connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v2.8";
+	        fjs.parentNode.insertBefore(js, fjs);
+	    }(document, 'script', 'facebook-jssdk'));
+	</script>
+
+	
+<header>
+	<section class="top-head">
+		<div class="container">
+			<div class="row">
+				<div class="top-left email col-xs-12 col-sm-5 col-md-5 col-lg-5">
+					<div class="logo">
+						<h1>
+							<a href="./"> <img src="http://vietbamedia.com.vn/site/upload/images/images/vsc1486721583.png" alt="logo" /> <span
+								class="sologan">Chung nhiệt huyết - gặt thành công</span>
+							</a>
+						</h1>
+					</div>
+					<!-- End logo -->
+				</div>
+				<!-- End top-left-->
+				<div
+					class="top-right col-xs-12 col-sm-7 col-md-7 col-lg-7 float-xs-right">
+					<div class="top-outer">
+						<div class="top-lang float-xs-right">
+							<div id="languages" class="box-lang">
+								<ul>
+																		<li><a href="javascript:void(0)" id="vi" onclick="SetLanguage('vi');"></a></li> 
+																		<li><a href="javascript:void(0)" id="en" onclick="SetLanguage('en');"></a></li> 
+																	</ul>
+							</div>
+						</div>
+						<!-- End .top-lang -->
+						<div class="hostline float-xs-right">
+							<a href="tel:0243.7226256"><span>0243.7226256</span></a>
+						</div>
+						<div class="link-socail float-xs-right">
+							<ul>
+								<li><a href="#"><i class="fa fa-twitter-square"></i></a></li>
+								<li><a href="https://www.youtube.com/channel/UCpStu-8k3gLVDI4EQcfIpcA"><i class="fa fa-youtube-square"></i></a></li>
+								<li><a href="https://www.facebook.com/vietbamedia"><i class="fa fa-facebook-square"></i></a></li>
+								<li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+							</ul>
+						</div>
+						<!-- End .link-socail -->
+					</div>
+					<!-- End top-outer-->
+					<nav class="navbar navbar-full navbar-dark menu float-xs-right">
+						<button class="navbar-toggler hidden-lg-up" type="button"
+							data-toggle="collapse" data-target="#mainNavbarCollapse">
+							&#9776;</button>
+						<div class="navi-row">
+							<div class="collapse navbar-toggleable-md"
+								id="mainNavbarCollapse">
+								<ul class="nav navbar-nav pull-lg-right">
+																		<li class="nav-item"><a class="nav-link" href="./">Trang chủ</a> 
+																			</li> 
+																		<li class="nav-item"><a class="nav-link" href="http://vietbamedia.com.vn/gioi-thieu">Giới thiệu</a> 
+																			</li> 
+																		<li class="nav-item"><a class="nav-link" href="http://vietbamedia.com.vn/dich-vu">Dịch vụ</a> 
+																				<div class="dropdown-menu">
+											<ul class="menu-sub">
+																								<li><a href="http://vietbamedia.com.vn/services/chuong-trinh-truyen-hinh"><span class="icon"><i class="fa fa-desktop"></i></span>Chương trình truyền hình</a>
+													<div class="dropdown-menu1">
+														<ul class="col-menu">
+																																													<li><a href="http://vietbamedia.com.vn/post/kenh-mchannel--vtvcab-15">Kênh Mchannel – VTV cab 15</a></li>
+																																																												<li><a href="http://vietbamedia.com.vn/post/biet-doi-vui-nhon-gwar">Biệt Đội Vui Nhộn - Gwar</a></li>
+																																																												<li><a href="http://vietbamedia.com.vn/post/nguoi-di-xuyen-tuong-nhi">Người Đi Xuyên Tường Nhí</a></li>
+																																																												<li><a href="http://vietbamedia.com.vn/post/sac-mau-phai-dep">Sắc màu phái đẹp</a></li>
+																																																												<li><a href="http://vietbamedia.com.vn/post/anh-sang-hay-bong-toi">Ánh sáng hay Bóng tối</a></li>
+																																																												<li><a href="http://vietbamedia.com.vn/post/ban-tin-thoi-tiet-nhin-the-gioi">Bản tin thời tiết Nhìn thế giới</a></li>
+																																																												<li><a href="http://vietbamedia.com.vn/post/ban-thang-vang">Bàn thắng vàng</a></li>
+																																																												<li><a href="http://vietbamedia.com.vn/post/chuc-be-ngu-ngon">Chúc bé ngủ ngon</a></li>
+																																																																																																																																																																																																																																																														</ul>
+														<!-- End .col-menu -->
+														<ul class="col-menu">
+																																																																																																																																																																																																																																																																																													<li><a href="http://vietbamedia.com.vn/post/nguoi-di-xuyen-tuong">Người Đi Xuyên Tường</a></li>
+																																																												<li><a href="http://vietbamedia.com.vn/post/chiec-non-ky-dieu">Chiếc nón kỳ diệu</a></li>
+																																																												<li><a href="http://vietbamedia.com.vn/post/ban-tin-thoi-tiet-du-lich">Bản tin thời tiết Du lịch</a></li>
+																																																												<li><a href="http://vietbamedia.com.vn/post/toi-tai-nang">Tôi tài năng</a></li>
+																																																												<li><a href="http://vietbamedia.com.vn/post/tap-lam-chien-si">Tập làm chiến sĩ</a></li>
+																																																												<li><a href="http://vietbamedia.com.vn/post/con-duong-am-nhac">Con đường âm nhạc</a></li>
+																																																												<li><a href="http://vietbamedia.com.vn/post/chuyen-phiem-toi-thu-3">Chuyện phiếm tối thứ 3</a></li>
+																																												</ul>
+														<!-- End .col-menu -->
+														<ul class="col-menu">
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																															</ul>
+														<!-- End .col-menu -->
+													</div> <!-- End .dropdown-menu -->
+												</li>
+																								<li><a href="http://vietbamedia.com.vn/services/dich-vu-ban-quyen"><span class="icon"><i class="fa fa-briefcase"></i></span>Dịch vụ bản quyền</a>
+													<div class="dropdown-menu1">
+														<ul class="col-menu">
+																																													<li><a href="http://vietbamedia.com.vn/post/mua-ban-trao-doi-phim">Mua bán trao đổi phim</a></li>
+																																												</ul>
+														<!-- End .col-menu -->
+														<ul class="col-menu">
+																																																											</ul>
+														<!-- End .col-menu -->
+														<ul class="col-menu">
+																																																											</ul>
+														<!-- End .col-menu -->
+													</div> <!-- End .dropdown-menu -->
+												</li>
+																								<li><a href="http://vietbamedia.com.vn/services/thiet-ke-san-xuat"><span class="icon"><i class="fa fa-video-camera"></i></span>Thiết kế - Sản xuất</a>
+													<div class="dropdown-menu1">
+														<ul class="col-menu">
+																																													<li><a href="http://vietbamedia.com.vn/post/nhan-dien-thuong-hieu">Nhận diện thương hiệu</a></li>
+																																																												<li><a href="http://vietbamedia.com.vn/post/tvc">TVC</a></li>
+																																												</ul>
+														<!-- End .col-menu -->
+														<ul class="col-menu">
+																																																																																									</ul>
+														<!-- End .col-menu -->
+														<ul class="col-menu">
+																																																																																									</ul>
+														<!-- End .col-menu -->
+													</div> <!-- End .dropdown-menu -->
+												</li>
+																								<li><a href="http://vietbamedia.com.vn/services/dich-vu-digital"><span class="icon"><i class="fa fa-camera"></i></span>Dịch vụ Digital</a>
+													<div class="dropdown-menu1">
+														<ul class="col-menu">
+																																													<li><a href="http://vietbamedia.com.vn/post/vrewards">vRewards</a></li>
+																																																												<li><a href="http://vietbamedia.com.vn/post/vwifi">vWifi</a></li>
+																																												</ul>
+														<!-- End .col-menu -->
+														<ul class="col-menu">
+																																																																																									</ul>
+														<!-- End .col-menu -->
+														<ul class="col-menu">
+																																																																																									</ul>
+														<!-- End .col-menu -->
+													</div> <!-- End .dropdown-menu -->
+												</li>
+																								<li><a href="http://vietbamedia.com.vn/services/quang-cao-bao-chi"><span class="icon"><i class="fa fa-youtube-play"></i></span>Quảng cáo - Báo chí</a>
+													<div class="dropdown-menu1">
+														<ul class="col-menu">
+																																													<li><a href="http://vietbamedia.com.vn/post/pano-bien-hieu">Pano - Biển hiệu</a></li>
+																																												</ul>
+														<!-- End .col-menu -->
+														<ul class="col-menu">
+																																																											</ul>
+														<!-- End .col-menu -->
+														<ul class="col-menu">
+																																																											</ul>
+														<!-- End .col-menu -->
+													</div> <!-- End .dropdown-menu -->
+												</li>
+																								<li><a href="http://vietbamedia.com.vn/services/to-chuc-su-kien"><span class="icon"><i class="fa fa-newspaper-o"></i></span>Tổ chức Sự kiện</a>
+													<div class="dropdown-menu1">
+														<ul class="col-menu">
+																																													<li><a href="http://vietbamedia.com.vn/post/le%CC%83-kho%CC%89i-cong-khu-du-li%CC%A3ch-cam-ranh-sa%CC%80i-go%CC%80n">Lễ Khởi công khu du lịch Cam Ranh - Sài Gòn</a></li>
+																																																												<li><a href="http://vietbamedia.com.vn/post/le-khai-truong-dich-vu-4g-viettel-tai-khanh-hoa">Lễ Khai trương dịch vụ 4G Viettel tại Khánh Hòa</a></li>
+																																																												<li><a href="http://vietbamedia.com.vn/post/asian-bankers-association-viet-nam-2016">Asian Bankers Association - Việt Nam 2016</a></li>
+																																																												<li><a href="http://vietbamedia.com.vn/post/le-khai-truong-trung-nguyen-coffee">Lễ khai trương Trung Nguyên Coffee</a></li>
+																																												</ul>
+														<!-- End .col-menu -->
+														<ul class="col-menu">
+																																																																																																																																																					</ul>
+														<!-- End .col-menu -->
+														<ul class="col-menu">
+																																																																																																																																																					</ul>
+														<!-- End .col-menu -->
+													</div> <!-- End .dropdown-menu -->
+												</li>
+																							</ul>
+										</div> <!-- End .dropdown-menu --> 
+																			</li> 
+																		<li class="nav-item"><a class="nav-link" href="http://vietbamedia.com.vn/posts/tin-tuc">Tin Tức</a> 
+																			</li> 
+																		<li class="nav-item"><a class="nav-link" href="http://vietbamedia.com.vn/doi-tac">Đối tác</a> 
+																			</li> 
+																		<li class="nav-item"><a class="nav-link" href="http://vietbamedia.com.vn/lien-he">Liên hệ</a> 
+																			</li> 
+																		<li class="nav-item">
+										<div class="form-inline form-search">
+											<input id="search" name="key-search" class="form-control"
+												type="text" placeholder="Tìm kiếm" onchange="SearchPost(this.value);"> <span
+												class="button"><i class="fa fa-search"></i></span>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<!-- End .navi-row -->
+					</nav>
+					<!-- /.navbar -->
+				</div>
+				<!-- End top-right-->
+			</div>
+		</div>
+	</section>
+	<!-- End top-head-->
+</header>
+<!-- End header -->
+
+
+
+
+<!-- <header>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4">
+				<div id="logo">
+					<a href="./"> <img src="http://vietbamedia.com.vn/site/upload/images/images/vsc1486721583.png" alt="logo" /></a>
+				</div>
+				End logo
+			</div>
+
+			<div class="col-md-8">
+				<div id="languages">
+					<ul class="ulinsite">
+												<li><a href="javascript:void(0)" id="vi" onclick="SetLanguage('vi');"></a></li> 
+												<li><a href="javascript:void(0)" id="en" onclick="SetLanguage('en');"></a></li> 
+											</ul>
+				</div>
+
+				<nav class="navbar navbar-default">
+					<div class="container-fluid">
+						Brand and toggle get grouped for better mobile display
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle collapsed"
+								data-toggle="collapse"
+								data-target="#bs-example-navbar-collapse-1"
+								aria-expanded="false">
+								<span class="sr-only">Toggle navigation</span> <span
+									class="icon-bar"></span> <span class="icon-bar"></span> <span
+									class="icon-bar"></span>
+							</button>
+							<a class="navbar-brand" href="#">Trang chủ</a>
+						</div>
+
+						Collect the nav links, forms, and other content for toggling
+						<div class="collapse navbar-collapse"
+							id="bs-example-navbar-collapse-1">
+							<ul class="nav navbar-nav">
+																<li class="nav-item">
+									<a class="nav-link" href="./">Trang chủ</a>
+																	</li> 								<li class="nav-item">
+									<a class="nav-link" href="http://vietbamedia.com.vn/gioi-thieu">Giới thiệu</a>
+																	</li> 								<li class="nav-item dropdown">
+									<a class="nav-link" href="#"
+									data-toggle="dropdown" >Dịch vụ</a>
+																		<ul class="dropdown-menu">
+																				<li><a class="dropdown-item" href="#">Sub</a></li>
+																			</ul> 								</li> 								<li class="nav-item">
+									<a class="nav-link" href="http://vietbamedia.com.vn/posts/tin-tuc">Tin Tức</a>
+																	</li> 								<li class="nav-item">
+									<a class="nav-link" href="http://vietbamedia.com.vn/doi-tac">Đối tác</a>
+																	</li> 								<li class="nav-item">
+									<a class="nav-link" href="http://vietbamedia.com.vn/lien-he">Liên hệ</a>
+																	</li> 							</ul>
+						</div>
+						/.navbar-collapse
+					</div>
+					/.container-fluid
+				</nav>
+
+			</div>
+
+		</div>
+	</div>
+
+
+</header> -->
+
+
+<script>
+	var domain = 'http://vietbamedia.com.vn/';
+</script>
+
+<script>
+	function SetLanguage(lang) {
+		$.post("?mod=ajax&site=ajax_set_language_used", {
+			'lang' : lang
+		}).done(function(e) {
+			window.location.href = domain;
+		});
+	}
+	function SearchPost(value) {
+		url = domain + "tim-kiem?key=" + encodeURI(value);
+		window.location.href = url;
+	}
+</script>
+
+
+
+	<section id="main" class="content">
+		
+<div class="banner">
+	<img alt="" src="http://vietbamedia.com.vn/site/upload/images/service86781233/vsc1494318747.jpeg">
+</div>
+<!-- End banner -->
+<div class="contact categories-service">
+	<div class="about-outer">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-8 bread">
+					<ol class="breadcrumb">
+						<li class="breadcrumb-item"><a href="#"><i
+								class="fa fa-home" aria-hidden="true"></i></a></li>
+						<li class="breadcrumb-item"><a href="#">Dịch vụ</a></li>
+						<li class="breadcrumb-item active">Chương trình truyền hình</li>
+					</ol>
+				</div>
+				<div class="col-sm-4 bt-like">
+					<div class="box-like">
+						<!-- Go to www.addthis.com/dashboard to customize your tools -->
+						<div class="addthis_inline_share_toolbox"></div>
+					</div>
+				</div>
+				<hr />
+				<div class="col-sm-12 pomo-service">
+					<p>Cùng hợp tác, song hành với các Đài Truyền hình uy tín trong cả nước như: VTV, HTV, Hanoi TV, SCTV, K+,… Vietba Media đã phối hợp sản xuất hàng loạt gameshow và phim sitcom phát sóng trên sóng truyền hình như: Chiếc nón kỳ diệu, Người đi xuyên tường, Ánh sáng hay Bóng tối, Bàn thắng vàng, Chúc bé ngủ ngon, Sắc màu phái đẹp - VTV3..</p>
+					<div><p><strong>Vietba Media</strong> chúng tôi là nhà sản xuất chương trình truyền hình chuyên nghiệp.</p>
+<p><strong>Chương trình của chúng tôi bao gồm:</strong><br />VTV3: Người đi xuyên tường, Sắc màu phái đẹp, Bản tin Thời tiết Du lịch, Bản tin Thời tiết Nhìn Thế giới, Chiếc nón kỳ diệu, Chọn bàn thắng đẹp EPL, Con đường âm nhạc, Khởi nghiệp, Cuồng nhiệt cùng Bóng đá, Tiếp sức.<br />VTV2: Chúc bé ngủ ngon.<br />VTV1: Bản tin Thời tiết Nhìn Thế giới, Bản tin Thời tiết Du lịch, Tiết kiệm điện, Tạp chí Tiêu dùng, Tạp chí Chứng khoán, Sức khỏe là Vàng.<br />VTV6: Tôi tài năng.<br />HTV7: Chúc mừng sinh nhật, Tập làm chiến sĩ.<br />Hà Nội TV: Vượt qua thử thách, Chuyện phiếm tối thứ 3.</p>
+<p><strong>Sản phẩm Độc quyền:</strong><br />Sản phẩm mới, độc quyền: Quảng cáo Giới thiệu chương trình với những ưu thế như thời lượng linh hoạt, giá cạnh tranh, vị trí cố định, thu hút người xem, hình thức mới lạ khác với các quảng cáo thông thường.<br />Độc quyền Quảng cáo giờ Thời sự 18h30 – 19h00 phát sóng cùng lúc trên 2 kênh: 1 và 2 – Đài PT&amp;TH Hà Nội.<br />Hợp tác cung cấp bản quyền phim và khai thác quảng cáo khung giờ 19h50 trên kênh 1 – Đài PT&amp;TH Hà Nội.</p>
+<p> </p></div>
+				</div>
+			</div>
+		</div>
+		<div class="cate-porogram">
+			<div class="title-program">
+				<h4>
+					<span>Chương trình</span>
+				</h4>
+			</div>
+			<div class="container">
+				<div class="row">
+										<div class="col-sm-3 box-cate">
+						<div class="cate-outer">
+							<div class="img-cate">
+								<a href="http://vietbamedia.com.vn/post/kenh-mchannel--vtvcab-15" title="Kênh Mchannel – VTV cab 15"><img src="http://vietbamedia.com.vn/site/upload/thumb/posts/vsc1507533982.jpeg" alt="Kênh Mchannel – VTV cab 15" /> 
+								<span class="view">Xem thêm</span></a>
+							</div>
+							<h6>
+								<a href="http://vietbamedia.com.vn/post/kenh-mchannel--vtvcab-15" title="Kênh Mchannel – VTV cab 15">Kênh Mchannel – VTV cab 15</a>
+							</h6>
+						</div>
+						<!-- End cate-outer-->
+					</div>
+					<!-- End box-cate-->
+										<div class="col-sm-3 box-cate">
+						<div class="cate-outer">
+							<div class="img-cate">
+								<a href="http://vietbamedia.com.vn/post/biet-doi-vui-nhon-gwar" title="Biệt Đội Vui Nhộn - Gwar"><img src="http://vietbamedia.com.vn/site/upload/thumb/posts/vsc1507533493.png" alt="Biệt Đội Vui Nhộn - Gwar" /> 
+								<span class="view">Xem thêm</span></a>
+							</div>
+							<h6>
+								<a href="http://vietbamedia.com.vn/post/biet-doi-vui-nhon-gwar" title="Biệt Đội Vui Nhộn - Gwar">Biệt Đội Vui Nhộn - Gwar</a>
+							</h6>
+						</div>
+						<!-- End cate-outer-->
+					</div>
+					<!-- End box-cate-->
+										<div class="col-sm-3 box-cate">
+						<div class="cate-outer">
+							<div class="img-cate">
+								<a href="http://vietbamedia.com.vn/post/nguoi-di-xuyen-tuong-nhi" title="Người Đi Xuyên Tường Nhí"><img src="http://vietbamedia.com.vn/site/upload/thumb/service86781233/vsc1493177427.jpeg" alt="Người Đi Xuyên Tường Nhí" /> 
+								<span class="view">Xem thêm</span></a>
+							</div>
+							<h6>
+								<a href="http://vietbamedia.com.vn/post/nguoi-di-xuyen-tuong-nhi" title="Người Đi Xuyên Tường Nhí">Người Đi Xuyên Tường Nhí</a>
+							</h6>
+						</div>
+						<!-- End cate-outer-->
+					</div>
+					<!-- End box-cate-->
+										<div class="col-sm-3 box-cate">
+						<div class="cate-outer">
+							<div class="img-cate">
+								<a href="http://vietbamedia.com.vn/post/sac-mau-phai-dep" title="Sắc màu phái đẹp"><img src="http://vietbamedia.com.vn/site/upload/thumb/service86781233/vsc1491362270.jpeg" alt="Sắc màu phái đẹp" /> 
+								<span class="view">Xem thêm</span></a>
+							</div>
+							<h6>
+								<a href="http://vietbamedia.com.vn/post/sac-mau-phai-dep" title="Sắc màu phái đẹp">Sắc màu phái đẹp</a>
+							</h6>
+						</div>
+						<!-- End cate-outer-->
+					</div>
+					<!-- End box-cate-->
+										<div class="col-sm-3 box-cate">
+						<div class="cate-outer">
+							<div class="img-cate">
+								<a href="http://vietbamedia.com.vn/post/anh-sang-hay-bong-toi" title="Ánh sáng hay Bóng tối"><img src="http://vietbamedia.com.vn/site/upload/thumb/service86781233/vsc1491362356.jpeg" alt="Ánh sáng hay Bóng tối" /> 
+								<span class="view">Xem thêm</span></a>
+							</div>
+							<h6>
+								<a href="http://vietbamedia.com.vn/post/anh-sang-hay-bong-toi" title="Ánh sáng hay Bóng tối">Ánh sáng hay Bóng tối</a>
+							</h6>
+						</div>
+						<!-- End cate-outer-->
+					</div>
+					<!-- End box-cate-->
+										<div class="col-sm-3 box-cate">
+						<div class="cate-outer">
+							<div class="img-cate">
+								<a href="http://vietbamedia.com.vn/post/ban-tin-thoi-tiet-nhin-the-gioi" title="Bản tin thời tiết Nhìn thế giới"><img src="http://vietbamedia.com.vn/site/upload/thumb/service86781233/vsc1491298104.png" alt="Bản tin thời tiết Nhìn thế giới" /> 
+								<span class="view">Xem thêm</span></a>
+							</div>
+							<h6>
+								<a href="http://vietbamedia.com.vn/post/ban-tin-thoi-tiet-nhin-the-gioi" title="Bản tin thời tiết Nhìn thế giới">Bản tin thời tiết Nhìn thế giới</a>
+							</h6>
+						</div>
+						<!-- End cate-outer-->
+					</div>
+					<!-- End box-cate-->
+										<div class="col-sm-3 box-cate">
+						<div class="cate-outer">
+							<div class="img-cate">
+								<a href="http://vietbamedia.com.vn/post/ban-thang-vang" title="Bàn thắng vàng"><img src="http://vietbamedia.com.vn/site/upload/thumb/service86781233/vsc1491361943.jpeg" alt="Bàn thắng vàng" /> 
+								<span class="view">Xem thêm</span></a>
+							</div>
+							<h6>
+								<a href="http://vietbamedia.com.vn/post/ban-thang-vang" title="Bàn thắng vàng">Bàn thắng vàng</a>
+							</h6>
+						</div>
+						<!-- End cate-outer-->
+					</div>
+					<!-- End box-cate-->
+										<div class="col-sm-3 box-cate">
+						<div class="cate-outer">
+							<div class="img-cate">
+								<a href="http://vietbamedia.com.vn/post/chuc-be-ngu-ngon" title="Chúc bé ngủ ngon"><img src="http://vietbamedia.com.vn/site/upload/thumb/service86781233/vsc1491362191.jpeg" alt="Chúc bé ngủ ngon" /> 
+								<span class="view">Xem thêm</span></a>
+							</div>
+							<h6>
+								<a href="http://vietbamedia.com.vn/post/chuc-be-ngu-ngon" title="Chúc bé ngủ ngon">Chúc bé ngủ ngon</a>
+							</h6>
+						</div>
+						<!-- End cate-outer-->
+					</div>
+					<!-- End box-cate-->
+										<div class="col-sm-3 box-cate">
+						<div class="cate-outer">
+							<div class="img-cate">
+								<a href="http://vietbamedia.com.vn/post/nguoi-di-xuyen-tuong" title="Người Đi Xuyên Tường"><img src="http://vietbamedia.com.vn/site/upload/thumb/service86781233/vsc1491362408.jpeg" alt="Người Đi Xuyên Tường" /> 
+								<span class="view">Xem thêm</span></a>
+							</div>
+							<h6>
+								<a href="http://vietbamedia.com.vn/post/nguoi-di-xuyen-tuong" title="Người Đi Xuyên Tường">Người Đi Xuyên Tường</a>
+							</h6>
+						</div>
+						<!-- End cate-outer-->
+					</div>
+					<!-- End box-cate-->
+										<div class="col-sm-3 box-cate">
+						<div class="cate-outer">
+							<div class="img-cate">
+								<a href="http://vietbamedia.com.vn/post/chiec-non-ky-dieu" title="Chiếc nón kỳ diệu"><img src="http://vietbamedia.com.vn/site/upload/thumb/service86781233/vsc1491359080.jpeg" alt="Chiếc nón kỳ diệu" /> 
+								<span class="view">Xem thêm</span></a>
+							</div>
+							<h6>
+								<a href="http://vietbamedia.com.vn/post/chiec-non-ky-dieu" title="Chiếc nón kỳ diệu">Chiếc nón kỳ diệu</a>
+							</h6>
+						</div>
+						<!-- End cate-outer-->
+					</div>
+					<!-- End box-cate-->
+										<div class="col-sm-3 box-cate">
+						<div class="cate-outer">
+							<div class="img-cate">
+								<a href="http://vietbamedia.com.vn/post/ban-tin-thoi-tiet-du-lich" title="Bản tin thời tiết Du lịch"><img src="http://vietbamedia.com.vn/site/upload/thumb/service86781233/vsc1491362444.jpeg" alt="Bản tin thời tiết Du lịch" /> 
+								<span class="view">Xem thêm</span></a>
+							</div>
+							<h6>
+								<a href="http://vietbamedia.com.vn/post/ban-tin-thoi-tiet-du-lich" title="Bản tin thời tiết Du lịch">Bản tin thời tiết Du lịch</a>
+							</h6>
+						</div>
+						<!-- End cate-outer-->
+					</div>
+					<!-- End box-cate-->
+										<div class="col-sm-3 box-cate">
+						<div class="cate-outer">
+							<div class="img-cate">
+								<a href="http://vietbamedia.com.vn/post/toi-tai-nang" title="Tôi tài năng"><img src="http://vietbamedia.com.vn/site/upload/thumb/service86781233/vsc1491529473.jpeg" alt="Tôi tài năng" /> 
+								<span class="view">Xem thêm</span></a>
+							</div>
+							<h6>
+								<a href="http://vietbamedia.com.vn/post/toi-tai-nang" title="Tôi tài năng">Tôi tài năng</a>
+							</h6>
+						</div>
+						<!-- End cate-outer-->
+					</div>
+					<!-- End box-cate-->
+										<div class="col-sm-3 box-cate">
+						<div class="cate-outer">
+							<div class="img-cate">
+								<a href="http://vietbamedia.com.vn/post/tap-lam-chien-si" title="Tập làm chiến sĩ"><img src="http://vietbamedia.com.vn/site/upload/thumb/service86781233/vsc1489481811.jpeg" alt="Tập làm chiến sĩ" /> 
+								<span class="view">Xem thêm</span></a>
+							</div>
+							<h6>
+								<a href="http://vietbamedia.com.vn/post/tap-lam-chien-si" title="Tập làm chiến sĩ">Tập làm chiến sĩ</a>
+							</h6>
+						</div>
+						<!-- End cate-outer-->
+					</div>
+					<!-- End box-cate-->
+										<div class="col-sm-3 box-cate">
+						<div class="cate-outer">
+							<div class="img-cate">
+								<a href="http://vietbamedia.com.vn/post/con-duong-am-nhac" title="Con đường âm nhạc"><img src="http://vietbamedia.com.vn/site/upload/thumb/service86781233/vsc1486782079.jpeg" alt="Con đường âm nhạc" /> 
+								<span class="view">Xem thêm</span></a>
+							</div>
+							<h6>
+								<a href="http://vietbamedia.com.vn/post/con-duong-am-nhac" title="Con đường âm nhạc">Con đường âm nhạc</a>
+							</h6>
+						</div>
+						<!-- End cate-outer-->
+					</div>
+					<!-- End box-cate-->
+										<div class="col-sm-3 box-cate">
+						<div class="cate-outer">
+							<div class="img-cate">
+								<a href="http://vietbamedia.com.vn/post/vuot-qua-thu-thach" title="Vượt qua thử thách"><img src="http://vietbamedia.com.vn/site/upload/thumb/service86781233/vsc1486782749.jpeg" alt="Vượt qua thử thách" /> 
+								<span class="view">Xem thêm</span></a>
+							</div>
+							<h6>
+								<a href="http://vietbamedia.com.vn/post/vuot-qua-thu-thach" title="Vượt qua thử thách">Vượt qua thử thách</a>
+							</h6>
+						</div>
+						<!-- End cate-outer-->
+					</div>
+					<!-- End box-cate-->
+										<div class="col-sm-3 box-cate">
+						<div class="cate-outer">
+							<div class="img-cate">
+								<a href="http://vietbamedia.com.vn/post/chuyen-phiem-toi-thu-3" title="Chuyện phiếm tối thứ 3"><img src="http://vietbamedia.com.vn/site/upload/thumb/service86781233/vsc1486782500.jpeg" alt="Chuyện phiếm tối thứ 3" /> 
+								<span class="view">Xem thêm</span></a>
+							</div>
+							<h6>
+								<a href="http://vietbamedia.com.vn/post/chuyen-phiem-toi-thu-3" title="Chuyện phiếm tối thứ 3">Chuyện phiếm tối thứ 3</a>
+							</h6>
+						</div>
+						<!-- End cate-outer-->
+					</div>
+					<!-- End box-cate-->
+										
+									</div>
+			</div>
+		</div>
+	</div>
+	<!-- End .about -->
+</div>
+<!-- End .pomotion -->
+
+	</section>
+	
+	
+<footer id="footer" class="footer wow fadeInUp" data-wow-delay="1">
+	<div class="footer-outer">
+		<div class="container">
+			<div class="row">
+				<div class="footer-top">
+					<div class="logo-ft col-xs-8 col-sm-8 col-md-8 col-lg-8">
+						<a href=""><img src="http://vietbamedia.com.vn/site/upload/images/images/vsc1486721583.png" alt="" /></a>
+						<span class="text-uppercase">&nbsp; công ty cổ phần phát triển truyền thông việt ba</span>
+					</div>
+					<div class="socia-right col-xs-4 col-sm-4 col-md-4 col-lg-4">
+						<span>VIETBA MEDIA</span>
+						<ul>
+							<li><a href="https://www.facebook.com/vietbamedia"><i class="fa fa-facebook-square"
+									aria-hidden="true"></i></a></li>
+							<li><a href="https://www.youtube.com/channel/UCpStu-8k3gLVDI4EQcfIpcA"><i class="fa fa-youtube"
+									aria-hidden="true"></i></a></li>
+							<li><a href="mailto:duclong.la@vietbamedia.com.vn"><i class="fa fa-envelope-o"
+									aria-hidden="true"></i></a></li>
+							<li><a href=""><i class="fa fa-rss" aria-hidden="true"></i></a></li>
+							<li><a href=""><i class="fa fa-instagram"
+									aria-hidden="true"></i></a></li>
+							<li><a href="#"><i class="fa fa-twitter-square"
+									aria-hidden="true"></i></a></li>
+						</ul>
+						<p class="text-right">
+							Vietba.,JSC<br /> ® All rights reserved
+						</p>
+					</div>
+				</div>
+				<!-- End footer-top -->
+			</div>
+			<div id="contact" class="row">
+								<div class="col-ft col-xs-12 col-sm-4 col-md-4 col-lg-4">
+					<h6 class="title">TRỤ SỞ CHÍNH VIETBA MEDIA</h6>
+					<p>TẦNG 3, TÒA NHÀ HÀ NỘI TOSERCO, 273 KIM MÃ, BA ĐÌNH, HÀ NỘI</p>
+					<p>
+						<a class="tel" href="tel:043 722 6256">Tel: <span>(84-24)3 722 6256</span> - Fax: <span>(84-24)3 722 6257</span></a>
+					</p>
+				</div>
+				<!-- End col-ft -->
+								<div class="col-ft col-xs-12 col-sm-4 col-md-4 col-lg-4">
+					<h6 class="title">Chi Nhánh HỒ CHÍ MINH</h6>
+					<p>TẦNG 6, TÒA NHÀ TMS, 172 HAI BÀ TRƯNG, PHƯỜNG ĐAKAO, QUẬN 1, TP. HỒ CHÍ MINH</p>
+					<p>
+						<a class="tel" href="tel:043 722 6256">Tel: <span>(84-28)3 910 1766</span> - Fax: <span>(84-28)3 910 1736</span></a>
+					</p>
+				</div>
+				<!-- End col-ft -->
+								<div class="col-ft col-xs-12 col-sm-4 col-md-4 col-lg-4">
+					<h6 class="title">Chi nhánh NHA TRANG</h6>
+					<p>SỐ 2 HÙNG VƯƠNG, PHƯỜNG LỘC THỌ, TP. NHA TRANG, TỈNH KHÁNH HÒA</p>
+					<p>
+						<a class="tel" href="tel:043 722 6256">Tel: <span>(84-258)3 527 789</span> - Fax: <span>(84-258)3 527 755</span></a>
+					</p>
+				</div>
+				<!-- End col-ft -->
+							</div>
+			<div class="row">
+				<div class="copy-r">
+					<div class="copy-left col-xs-9 col-sm-9 col-md-9 col-lg-9">
+						<span>Bản quyền © Công ty CỔ PHẦN PHÁT TRIỂN TRUYỀN THÔNG VIỆT BA ( Vietba media ) Giao diện, phần mềm quản trị, nội dung website đã được đăng ký bản quyền theo Giấy chứng nhận số 5311/2016/QTG do Cục Bản Quyền Tác Giả cấp. Nghiêm cấm mọi hành vi sao chép trái phép.</span>
+					</div>
+					<div class="copy-right col-xs-3 col-sm-3 col-md-3 col-lg-3">
+						<a href=""> website : vietbamedia.com.vn</a>
+					</div>
+				</div>
+				<!-- End .copy-r -->
+			</div>
+		</div>
+	</div>
+	<!-- End footer-outer-->
+	<div class="hostline">
+		<div class="container">
+			<div class="row">
+								<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+					<a href=""> 
+						<span class="phone"><i class="fa fa-phone" aria-hidden="true"></i></span> 
+						<span>Hà Nội <br />Tel: 0243.7226256 </span>
+					</a>
+				</div>
+								<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+					<a href=""> 
+						<span class="phone"><i class="fa fa-phone" aria-hidden="true"></i></span> 
+						<span>TP Hồ Chí Minh <br />Tel: 0283.9101766 </span>
+					</a>
+				</div>
+								<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+					<a href=""> 
+						<span class="phone"><i class="fa fa-phone" aria-hidden="true"></i></span> 
+						<span>Nha Trang <br />Tel: 0258.3527789 </span>
+					</a>
+				</div>
+							</div>
+		</div>
+	</div>
+	<!-- End footer-copy -->
+</footer>
+
+
+
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha384-3ceskX3iaEnIogmQchP8opvBy3Mi7Ce34nWjpBIwVTHfGYWQS9jwHDVRnpKKHJg7" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js" integrity="sha384-XTs3FgkjiBgo8qjEjBk0tGmf3wPrWtA6coPfQDfFEY8AnYJwjalXCiosYRBIBZX8" crossorigin="anonymous"></script>
+    <script src="http://vietbamedia.com.vn/site/themes/webroot/js/bootstrap.min.js"></script>
+    <script src="http://vietbamedia.com.vn/site/themes/webroot/js/jquery.flexslider.js"></script>
+    <script src="http://vietbamedia.com.vn/site/themes/webroot/js/owl.carousel.min.js"></script>
+    <script src="http://vietbamedia.com.vn/site/themes/webroot/js/jquery.featureCarousel.min.js"></script>
+    <script src="http://vietbamedia.com.vn/site/themes/webroot/js/jquery.waterwheelCarousel.min.js"></script>
+    <script src="http://vietbamedia.com.vn/site/themes/webroot/js/jquery.flipster.min.js"></script>
+    <script src="http://vietbamedia.com.vn/site/themes/webroot/js/jquery.easing.min.js"></script>
+    <script src="http://vietbamedia.com.vn/site/themes/webroot/js/wow.min.js"></script>
+    <script src="http://vietbamedia.com.vn/site/themes/webroot/js/custom.js"></script>
+    <!-- Syntax Highlighter -->
+    <script type="text/javascript" src="http://vietbamedia.com.vn/site/themes/webroot/js/shCore.js"></script>
+    <script type="text/javascript" src="http://vietbamedia.com.vn/site/themes/webroot/js/shBrushXml.js"></script>
+    <script type="text/javascript" src="http://vietbamedia.com.vn/site/themes/webroot/js/shBrushJScript.js"></script>
+</body>
+</html>
